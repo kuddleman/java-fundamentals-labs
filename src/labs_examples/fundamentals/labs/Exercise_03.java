@@ -19,11 +19,11 @@ public class Exercise_03 {
         // write code to print out "Check out my first program!" below
         System.out.println("Check out my first program!");
 
-        int i = 10;
-        int x = 12;
-        int z = i + x;
+        
+        
+        
 
-        System.out.println(z);
+        
 
     }
 
