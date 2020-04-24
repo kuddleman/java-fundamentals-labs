@@ -4,16 +4,48 @@
 
 Initializing git folder
     1. In CodingNomads folder, create new folder git_practice
+    mkdir git_practice
+
     2. Inside git_practice:
         a. Initialize folder as a git folder (make sure you are in the correct folder when initializing) by running
             the "git init" command within the git_practice folder.
+            donny@Donalds-MBP-2 git_practice % git init
+            Initialized empty Git repository in /Users/donny/Dropbox/CodingNomads/git_practice/.git/
+            donny@Donalds-MBP-2 git_practice %
+
         b. Make new file
+         touch new_file.txt
+
         c. Add file
+        donny@Donalds-MBP-2 git_practice % git status
+        On branch master
+
+        No commits yet
+
+        Untracked files:
+          (use "git add <file>..." to include in what will be committed)
+        	new_file.txt
+
+        nothing added to commit but untracked files present (use "git add" to track)
+        donny@Donalds-MBP-2 git_practice % git add .
+        donny@Donalds-MBP-2 git_practice %
+
         d. Commit file
+        donny@Donalds-MBP-2 git_practice % git commit -m "add new file"
+        [master (root-commit) 667d55e] add new file
+         1 file changed, 0 insertions(+), 0 deletions(-)
+         create mode 100644 new_file.txt
+        donny@Donalds-MBP-2 git_practice %
+
         c. On Github, create new git_practice repository
+
         d. Add this new GitHub repository as a new "remote" to your local Git repo. You can do this by using the command
             git remote add <ANY_NAME> <URL_OF_NEW_GITHUB_REPO.git>
+            donny@Donalds-MBP-2 git_practice % git remote add origin https://github.com/kuddleman/practice-repository.git
+
         d. Push commit file to Github
+        git push -u origin master
+
         e. Practice the following git flow until you feel comfortable:
             i.   Create or modify file
             ii.  Add file(s)
