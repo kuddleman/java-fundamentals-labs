@@ -8,11 +8,26 @@ package labs_examples.datatypes_operators.labs;
  *
  */
 
+import java.lang.Math.*;
+
 public class Exercise_06 {
 
     public static void main(String[] args) {
 
         // write code here
+
+         double radius = 3.14f;
+         double height = 5.00;
+
+         double volume = Math.PI * Math.pow(radius, 2) * height;
+
+        System.out.println("the volume of the cylinder is: " + volume);
+
+        double area = 2 * Math.PI * radius * height + 2 * Math.PI * Math.pow(Math.PI, 2);
+
+        System.out.println(" The area of the cylinder is: " + area);
+
+
 
     }
 }
