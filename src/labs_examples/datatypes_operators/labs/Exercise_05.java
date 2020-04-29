@@ -18,6 +18,25 @@ class LogicalOperators {
         }
 
         // write your code below
+        if( a & b) {
+            System.out.println("This won't print");
+        }
+
+        if( a && b ) {
+            System.out.println("This won't print either");
+        }
+
+        if( a || b){
+            System.out.println("This should print");
+        }
+
+        if( a ^ b ) {
+            System.out.println("This XOR should print");
+        }
+
+        if(!b) {
+            System.out.println( "This NOT B should print" );
+        }
 
     }
 
