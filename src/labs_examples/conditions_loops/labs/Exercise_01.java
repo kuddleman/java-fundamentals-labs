@@ -24,6 +24,11 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
+        if( number % 2 == 0 ){
+            System.out.println("This is an EVEN number: " + number);
+        } else {
+            System.out.println("This is an ODD number: " + number);
+        }
 
     }
 }
