@@ -8,4 +8,16 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_06 {
+    public static void main(String[] arg) {
+
+        int counter = 1;
+        int sum = 0;
+
+        while( counter <= 100) {
+          sum += counter;
+          counter++;
+
+        }
+        System.out.println("The sum of all the numbers is: " + sum);
+    }
 }
