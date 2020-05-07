@@ -1,5 +1,8 @@
 package labs_examples.arrays.labs;
 
+//import java.sql.SQLOutput;
+import java.util.ArrayList;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +13,18 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args){
+       ArrayList<String> myList = new ArrayList();
+
+       myList.add("This");
+       myList.add("is");
+       myList.add("fun");
+
+
+       for (String s : myList) {
+           System.out.print( s + " ");
+       }
+
+
+    }
 }

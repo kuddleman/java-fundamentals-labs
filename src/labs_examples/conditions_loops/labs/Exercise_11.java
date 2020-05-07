@@ -23,4 +23,47 @@ package labs_examples.conditions_loops.labs;
 
 public class Exercise_11 {
 
+    public static void main(String[] args) {
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i + " " + "|");
+
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 2 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 3 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 4 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 5 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 6 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 7 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 8 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 9 + " " + "|");
+        }
+        System.out.print(System.lineSeparator());
+        for (int i = 1; i < 11; i++) {
+            System.out.print(i * 10 + " " + "|");
+        }
+    }
+
 }

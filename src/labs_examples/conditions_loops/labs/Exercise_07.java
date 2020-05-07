@@ -1,3 +1,5 @@
+
+
 package labs_examples.conditions_loops.labs;
 
 /**
@@ -13,5 +15,34 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
+import java.util.Scanner;
+
 public class Exercise_07 {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a word here: ");
+
+       String word = input.nextLine();
+
+       System.out.println(word);
+
+       for (int i = 0; i < word.length(); i++) {
+           char letter = word.charAt(i);
+
+          // System.out.println(letter);
+
+         if( letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'){
+             System.out.println("Your word was: " + word + " and the first vowel is: " + letter + ".");
+             break;
+         }
+       }
+
+
+
+
+
+
+    }
 }
