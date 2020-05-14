@@ -1,0 +1,47 @@
+package labs_examples.play_area;
+
+//public class access_modifiers {
+
+
+    class Main {
+        public static void main(String[] args) {
+
+            AccessMod obj = new AccessMod();
+
+            // try to set each instance var on the "obj" object
+            // hint - only two will work
+
+            String.out.println("Hello");
+        }
+    }
+
+    class AccessMod {
+
+        public String publicVar;
+        protected String protectedVar;
+        private String privateVar;
+
+    }
+
+
+
+
+
+
+//class Main {
+//  public static void main(String[] args) {
+//
+//    AccessMod obj = new AccessMod();
+//
+//    // try to set each instance var on the "obj" object
+//    // hint - only two will work
+//  }
+//}
+//
+//class AccessMod {
+//
+//  public String publicVar;
+//  protected String protectedVar;
+//  private String privateVar;
+//
+//}
