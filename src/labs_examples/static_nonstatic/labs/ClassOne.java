@@ -3,7 +3,7 @@ package labs_examples.static_nonstatic.labs;
 /**
  * Please create two classes that demonstrate the following:
 
- * 4) A static method calling a non-static method in another class
+
  * 5) A non-static method calling a non-static method in the same class
  * 6) A non-static method calling a non-static method in another class
  * 7) A non-static method calling a static method in the same class
@@ -27,6 +27,8 @@ public class ClassOne {
       //  4) A static method calling a non-static method in another class
       staticMethodCalltoNonStaticInAnotherClass();
 
+      //  5) A non-static method calling a non-static method in the same class
+      classOneObj.anotherClassOneNonStatic();
   }
 
   public static void classOneStatic() {
@@ -48,6 +50,10 @@ public class ClassOne {
 
   public void classOneNonStatic() {
       System.out.println("This is ClassOne's NON-STATIC method");
+  }
+
+  public void anotherClassOneNonStatic() {
+      classOneNonStatic();
   }
 
 }
