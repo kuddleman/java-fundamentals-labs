@@ -32,6 +32,8 @@ public class ClassOne {
       //7) A non-static method calling a static method in the same class
       classOneObj.nonStaticCallingStaticInSameClass();
 
+      // 8) A non-static method calling a static method in another class
+      classOneObj.nonStaticCallingStaticInAnotherClass();
   }
 
   public static void classOneStatic() {
@@ -66,6 +68,10 @@ public class ClassOne {
 
   public void nonStaticCallingStaticInSameClass() {
       classOneStatic();
+  }
+
+  public void nonStaticCallingStaticInAnotherClass() {
+      ClassTwo.classTwoStatic();
   }
 
 }
