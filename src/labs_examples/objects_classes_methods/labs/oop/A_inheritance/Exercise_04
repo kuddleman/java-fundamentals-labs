@@ -1,6 +1,6 @@
 
 Without running the code below, please tell me what it will print.
-
+//Child will be called.  Why?
 
 
 public class InheritanceTest
@@ -21,7 +21,30 @@ class Parent
 }
 
 class Child extends Parent
-{
+{public class InheritanceTest
+ {
+   public static void main(String[] args)
+   {
+     Parent c = new Child();
+     c.doSomething();
+   }
+ }
+
+ class Parent
+ {
+   public void doSomething()
+   {
+     System.err.println("Parent called");
+   }
+ }
+
+ class Child extends Parent
+ {
+   public void doSomething()
+   {
+     System.err.println("Child called");
+   }
+
   public void doSomething()
   {
     System.err.println("Child called");
